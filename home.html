@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Goal application</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/goals.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <h1 class="logo">Goal setting app</h1>
+
+            <div class="account">
+                <a href="/index.html" class="account_btn">Logout</a>
+            </div>
+        </div>
+        
+        <div class="form-container add-goal">
+            <form action="#" method="get">
+
+                <label for="name" class="input-label">Name:</label>
+                <input type="text" placeholder="Enter name" name="name" class="input-field" required>
+
+                <label for="description" class="input-label">Description:</label><br>
+                <textarea name="description" rows="10" cols="38" class="description"></textarea><br>
+
+                <label for="date" class="input-label">Due date:</label>
+                <input type="date" placeholder="Enter date" name="date" class="input-field" required>
+
+                <button type="submit" class="btn">Create goal</button>
+
+            </form>
+        </div>
+
+        <div class="goals">
+
+            <div class="goal">
+                <h1>Goal name</h1>
+                <p>This is the description of the goal.</p>
+                <p>Due: 16/01/2023</p>
+                <a href="/breakdown.html" class="btn">Breakdown</a>
+            </div>
+
+            <div class="goal">
+                <h1>Goal name 2</h1>
+                <p>This is the description of the second goal.</p>
+                <p>Due: 16/01/2023</p>
+                <a href="/breakdown.html" class="btn">Breakdown</a>
+            </div>
+
+            <div class="goal">
+                <h1>Goal name 3</h1>
+                <p>This is the description of the third goal, which has a long description.</p>
+                <p>Due: 16/01/2023</p>
+                <a href="/breakdown.html" class="btn">Breakdown</a>
+            </div>
+
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fdfcf9f4;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #09cbf7;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 0px;
+}
+
+.logo {
+    display: inline;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.account {
+    float: right;
+    margin-right: 20px;
+}
+
+.account_btn {
+    font-size: 20px;
+    background: -webkit-linear-gradient(#ef4136, #fbb040);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    border: 2px solid #ff5900;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.btn {
+    font-size: 20px;
+    border: 2px solid #ff5900;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: 200px;
+        justify-content: center;
+    }
+}

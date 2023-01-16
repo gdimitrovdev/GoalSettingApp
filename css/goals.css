@@ -1,0 +1,33 @@
+body {
+    flex-direction: column !important;
+}
+
+.goal {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom right, red, yellow) 1;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 30px;
+    max-width: 400px;
+}
+
+.add-goal {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding: 40px 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.add-subtask {
+    background-image: linear-gradient(to bottom right, #0373e3, rgb(0, 187, 255)) !important;
+}
+
+.subtask {
+    border-image: linear-gradient(to bottom right, #0373e3, rgb(0, 187, 255)) 1 !important;
+}
+
+.subtask-btn {
+    border: 2px solid #0373e3 !important;
+}

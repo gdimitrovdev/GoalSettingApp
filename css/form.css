@@ -1,0 +1,24 @@
+.form-container {
+    margin-top: 150px;
+}
+
+.input-label {
+    font-size: 25px;
+}
+
+.input-field {
+    display: block;
+    padding: 12px 20px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        margin-top: 250px;
+    }
+}
